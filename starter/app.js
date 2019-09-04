@@ -235,8 +235,13 @@ var controller = (function(budgetCtr, UICtrl) { // third module
     }
 
     var ctrDeleteItem = function(event) {
+        var itemId ;
 
-        console.log(event.target.parentNode.parentNode.parentNode.parentNode.id);
+        itemId = event.target.parentNode.parentNode.parentNode.parentNode.id;
+
+        if(itemId) {
+            
+        }
 
     };
 
